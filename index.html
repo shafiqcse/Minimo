@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimo</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- UIKITS CDN CSS -->
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!-- HEADER AREA START -->
+
+    <header id="navbar">
+        <div class="container">
+            <div class="nav_item">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt="Minimo"></a>
+                </div>
+                <div class="open" onclick="menuOpen()">
+                    <a href="#"><ion-icon name="grid-outline"></ion-icon></a>
+                </div>
+                <nav class="menu" id="menu" onclick="menuClose()">
+                    <ul>
+                        <li><a onclick="menuClose()" href="#">lifestyle</a></li>
+                        <li><a onclick="menuClose()" href="#">photodiary</a></li>
+                        <li><a onclick="menuClose()" href="#">Music</a></li>
+                        <li><a onclick="menuClose()" href="#">Travel</a></li>
+                    </ul>
+                    <div class="close" onclick="menuClose()">
+                        <a href="#"><ion-icon name="close-circle-outline"></ion-icon></a>
+                    </div>
+                </nav> 
+            </div>
+        </div>
+    </header>
+    <!-- HEADER AREA END -->
+
+
+    <!-- BANNER PART START -->
+
+    <div id="banner">
+        <div class="container">
+            <div class="banner_img">
+                <img src="images/banner.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- BANNER PART END -->
+
+    <!-- PHOTO DIARY PART START -->
+    <section id="photo_diary">
+        <div class="container">
+            <div class="photo_diary_main">
+                <div class="photo_diary_item">
+                    <span>photodiary</span>
+                    <h1>The perfect weekend getaway</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <span>Leave a comment</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PHOTO DIARY PART END -->
+
+
+    <!-- LIFE STYLE PART START -->
+    <section id="life_style">
+        <div class="container">
+            <div class="life_style_main">
+                <div class="life_style_item">
+                    <div class="uk-child-width-1-2@m" data-uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="images/Blog1.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Life style</h3>
+                                    <h4>More than just a music festival </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-bottom">
+                                    <img src="images/blog3.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">photodiary</h3>
+                                    <h4>American dream</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-child-width-1-2@m" data-uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <div class="uk-card-media-top">
+                                        <img src="images/Blog2.jpg" alt="">
+                                    </div>
+                                    <h3 class="uk-card-title">Life style</h3>
+                                    <h4>Life tastes better with coffee</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-bottom">
+                                    <img src="images/blog4.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">photodiary</h3>
+                                    <h4>A day exploring the Alps</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- LIFE STYLE END -->
+
+
+    <!-- NEWSLETTER PART START -->
+    <section id="newsletter">
+        <div class="container">
+            <div class="newsletter_main">
+                <div class="newsletter_item">
+                    <h3>Sign up for our newsletter!</h3>
+                    <input type="text" placeholder="Enter a valid email address">
+                    <a href="#"><ion-icon name="chevron-forward-circle-outline"></ion-icon></a>
+                    <div class="icon">
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NEWSLETTER PART END -->
+
+    <!-- LIFE STYLE2 PART START -->
+    <section id="life_style2">
+        <div class="container">
+            <div class="life_style_main">
+                <div class="life_style_item">
+                    <div class="uk-child-width-1-2@m" data-uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="images/Blog5.jpg" alt="">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Life style</h3>
+                                    <h4>Top 10 song for running </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-child-width-1-2@m" data-uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-body">
+                                    <div class="uk-card-media-top">
+                                        <img src="images/Blog6.jpg" alt="">
+                                    </div>
+                                    <h3 class="uk-card-title">Life style</h3>
+                                    <h4>Cold winter days</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>Load More</button>
+        </div>
+    </section>
+    <!-- LIFE STYLE2 END -->
+
+
+    <!-- FOOTER PART START -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer_main">
+                <div class="footer_left">
+                    <p><a href="#">Terms and conditions</a></p>
+                    <span><a href="#">Privacy</a></span>
+                </div>
+                <div class="footer_right">
+                    <ul>
+                        <li><a href="#">follow</a></li>
+                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="totop uk-totop uk-scroll">
+                <a href="#"><ion-icon name="chevron-up-circle-outline"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER PART END -->
+
+    <!-- ION ICON -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- UIKITS CDN JS -->
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <!-- JS -->
+    <Script src="js/custom.js"></Script>
+</body>
+</html>

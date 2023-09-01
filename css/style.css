@@ -1,0 +1,320 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* ===================
+Common CSS 
+========================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* ======================
+Reuseable Components 
+========================*/
+
+.container {
+    max-width: 117rem;
+    margin: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    padding: 3.50rem 0;
+}
+
+
+/* ========================
+HEADER AREA START
+===========================*/
+#navbar{
+    padding: 2rem 0;
+    position: relative;
+} 
+.nav_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 9.5rem;
+}
+
+.menu ul li a{
+    color: #626262;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: #862e2e;
+}
+.open{
+    display: none;
+    position: absolute;
+    right: .7rem;
+    top: .7rem;
+
+}
+.close{
+    display: none;
+    position: absolute;
+    right: .7rem;
+    top: .7rem;
+}
+/* ========================
+HEADER AREA END
+===========================*/
+
+
+
+
+/* ========================
+BANNER AREA START
+===========================*/
+.banner_img img {
+    width: 100%;
+    align-items: center;
+    -webkit-filter: grayscale(.8);
+            filter: grayscale(.8);
+}
+/* ========================
+BANNER AREA END
+===========================*/
+
+
+/* ========================
+PHOTO DIARY AREA START
+===========================*/
+.photo_diary_item span {
+    display: block;
+    padding: 2rem 0;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+}
+.photo_diary_item h1 {
+    display: block;
+    padding: 2rem 0;
+    color: #626262;
+    font-size: 3rem;
+}
+
+.photo_diary_item p {
+    padding: 1.2rem 0;
+    text-align: justify;
+    color: #626262;
+}
+/* ========================
+PHOTO DIARY AREA END
+===========================*/
+
+
+/* ========================
+LIFE STYLE AREA START
+===========================*/
+.life_style_item {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+}
+.uk-card-body p {
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+    text-align: justify;
+    display: block;
+    color: #626262;
+}
+
+.uk-card-body h3 {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+.uk-card-body h4 {
+    font-size: 2rem;
+    color: #626262;
+    padding-bottom: 1.6rem;
+}
+.uk-card-media-top img {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.uk-card-media-bottom img {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+} 
+/* ========================
+LIFE STYLE AREA END
+===========================*/
+
+/* ========================
+NEWS LETTER  AREA START
+===========================*/
+#newsletter {
+    background-color: #f0f0f0;
+    padding: 7rem 0;
+    position: relative;
+}
+.newsletter_item {
+    text-align: center;
+}
+input {
+    outline: none;
+    background: transparent;
+    border: none;
+}
+.newsletter_item h3{
+    padding-bottom: 4rem;
+    color: #333333;
+    font-size: 2rem;
+}
+.newsletter_item a {
+	height: 5rem;
+	position: absolute;
+	top: 70%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+}
+ion-icon {
+    width: 3rem;
+    height: 3rem;
+    color: #74716d;
+}
+hr {
+    position: absolute;
+	top: 73%;
+	left: 52%;
+	transform: translate(-50%,-50%);
+	border: 0;
+	width: 33rem;
+	height: .1rem;
+	background: #626262;
+	text-align: center;
+}
+
+/* ========================
+NEWS LETTER AREA END
+===========================*/
+
+
+/* ========================
+LIFE STYLE2  AREA START
+===========================*/
+.life_style_main {
+    padding: 5rem 0;
+}
+#life_style2 {
+    text-align: center;
+}
+#life_style2 button {
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    color: #626262;
+    transition: .5s;
+}
+#life_style2 button:hover{
+    background-color: #862e2e;
+    color: #fff;
+    
+}
+/* ========================
+LIFE STYLE2 AREA END
+===========================*/
+
+
+
+/* ========================
+FOOTER  AREA START
+===========================*/
+#footer {
+    background-color: #f0f0f0;
+    padding: 2rem 0;
+    position: relative;
+}
+.footer_main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.footer_left p, span{
+    display: inline-block;
+    padding-right: 2rem;
+}
+.footer_left a:hover {
+    color: #862e2e;
+}
+.footer_right {
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+} 
+.footer_right ul li {
+    display: inline-block;
+    padding-left: 2rem;
+    text-decoration: none;
+    color: #b4ad9e;
+}
+
+.footer_right ion-icon {
+    width: 2rem;
+    height: 2rem;
+}
+.footer_right ion-icon:hover {
+    color: #862e2e;
+}
+.footer_right a:hover{
+    color: #862e2e;
+}
+.totop {
+    position: absolute;
+    left: 50%;
+    bottom: -10%;
+    transform: translate(-50%,-50%);
+}
+.totop ion-icon {
+    color: #000;
+}
+.totop ion-icon:hover {
+    color: #862e2e;
+}
+/* ========================
+FOOTER AREA END
+===========================*/
